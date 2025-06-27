@@ -3034,3 +3034,555 @@ AVERTISSEMENT: Unmatched cancel notification for request id 2803
 2025.06.27 16:26:20 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\models\OutliersCleaner.scala
 2025.06.27 16:26:24 INFO  time: code lens generation in 3.97s
 2025.06.27 16:26:27 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\OutliersCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:17:59 INFO  Started: Metals version 1.6.0 in folders 'C:\CodeMine\dataprocess mine' for client Visual Studio Code 1.101.1.
+2025.06.27 17:18:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:18:08 WARN  Could not find semantic tokens for: file:///C:/CodeMine/dataprocess%20mine/backend/app/controllers/Main.scala
+2025.06.27 17:20:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 11
+juin 27, 2025 5:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 13
+2025.06.27 17:20:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:29 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:29 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:47 INFO  no build target found for c:\CodeMine\dataprocess mine\backend\app\controllers\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:49 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:50 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:50 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:20:51 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:20:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:04 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:22 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:22 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\DuplicatesCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:22 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\DuplicatesCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\DuplicatesCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:29 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:30 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:40 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:40 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:40 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:45 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:45 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\CodeMine\dataprocess mine\.metals\.reports\metals-full\2025-06-27\r_empty-definition_01-06-59-255.md")
+2025.06.27 17:22:45 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:45 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:46 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:46 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:46 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:46 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\CodeMine\dataprocess mine\.metals\.reports\metals-full\2025-06-27\r_empty-definition_01-06-59-255.md")
+2025.06.27 17:22:50 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:50 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:50 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:50 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:57 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:57 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:22:59 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:23:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 129
+2025.06.27 17:22:59 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:04 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:04 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:18 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:18 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:22 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:22 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:23:26 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:23:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:22 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:34 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:34 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:34 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:34 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:34 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:35 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:25:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 191
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 196
+juin 27, 2025 5:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 197
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:55 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 202
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 199
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 205
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:56 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:25:59 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:07 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:26:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:11 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:11 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:26:11 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:11 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:11 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:16 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:26:16 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:17 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:26:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:26:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:24 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:27:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:24 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:27:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:29:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2025.06.27 17:31:46 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:31:46 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:31:46 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:31:46 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:31:46 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:31:47 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:31:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:31:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:56 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:56 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:56 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:58 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:58 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:32:58 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:58 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:32:58 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:00 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:00 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:00 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:00 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:06 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:08 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:10 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:11 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:12 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:13 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:33:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 352
+2025.06.27 17:33:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:14 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:18 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:18 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:18 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:18 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:18 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:20 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:19 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:23 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:25 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:28 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:31 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:33 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:33 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:33 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:33 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:33 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:35 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:35 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:35 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:37 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:37 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:37 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:37 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:37 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:41 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:42 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:42 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:44 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:44 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:44 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:44 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:44 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:48 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:48 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:49 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:49 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:49 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:49 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:49 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:51 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:33:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:52 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:33:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:33:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:00 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:00 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:34:00 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:00 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:01 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:02 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:34:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:01 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:01 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:06 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:34:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:07 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:34:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:08 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:34:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:08 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:10 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:34:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:13 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:34:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:15 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala
+2025.06.27 17:34:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:34:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:02 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:35:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:02 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:03 INFO  Created report: Optional[file:///C:/CodeMine/dataprocess%20mine/backend/app/controllers/MainController.scala]
+2025.06.27 17:35:03 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\CodeMine\dataprocess mine\.metals\.reports\metals-full\2025-06-27\r_empty-definition_17-35-03-386.md")
+2025.06.27 17:35:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:03 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:04 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:05 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:06 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:07 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:10 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:13 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:35:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:14 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:29 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:33 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:35 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:35 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:36 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:37 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:38 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:39 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:55 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:56 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:56 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:57 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:57 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:59 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:35:59 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:09 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:09 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:09 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 5:36:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 659
+2025.06.27 17:36:09 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:12 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:13 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:14 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:36:14 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:14 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:14 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:14 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:16 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:16 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:16 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:16 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:17 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:20 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:22 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:23 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:25 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:26 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala
+2025.06.27 17:36:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:26 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:36:45 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:15 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:16 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:16 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:27 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:27 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:29 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:31 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:37:33 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:40 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\controllers\MainController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:41 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala
+2025.06.27 17:38:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:41 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:43 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:43 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:43 INFO  Created report: Optional[file:///C:/CodeMine/dataprocess%20mine/backend/app/models/MissingDataCleaner.scala]
+2025.06.27 17:38:43 INFO  empty definition using pc, found symbol in pc: scala/collection/Iterator#next(). (full report at: "C:\CodeMine\dataprocess mine\.metals\.reports\metals-full\2025-06-27\r_empty-definition_17-38-43-527.md")
+2025.06.27 17:38:43 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:43 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:38:44 INFO  empty definition using pc, found symbol in pc: scala/collection/Iterator#next(). (full report at: "C:\CodeMine\dataprocess mine\.metals\.reports\metals-full\2025-06-27\r_empty-definition_17-38-43-527.md")
+2025.06.27 17:39:27 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:27 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:27 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\CodeMine\dataprocess mine\.metals\.reports\metals-full\2025-06-26\r_empty-definition_12-50-51-469.md")
+2025.06.27 17:39:27 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:27 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:28 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala
+2025.06.27 17:39:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:28 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:49 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:51 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:52 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:53 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:39:53 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala
+2025.06.27 17:39:53 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:40:40 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.27 17:40:40 WARN  no build target for: C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala
+2025.06.27 17:40:40 INFO  no build target found for C:\CodeMine\dataprocess mine\backend\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 27, 2025 9:48:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
