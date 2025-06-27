@@ -1,0 +1,993 @@
+2025.06.22 23:36:48 INFO  Started: Metals version 1.6.0 in folders 'C:\Users\etifo\dataprocess' for client Visual Studio Code 1.101.1.
+2025.06.22 23:36:49 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:40:44 WARN  no build target for: C:\Users\etifo\dataprocess\build.sbt
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+juin 22, 2025 11:40:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 8
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+juin 22, 2025 11:40:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 10
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+juin 22, 2025 11:40:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 20
+2025.06.22 23:40:44 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:42:22 WARN  Build server is not auto-connectable.
+2025.06.22 23:42:22 WARN  no build target for: C:\Users\etifo\dataprocess\build.sbt
+2025.06.22 23:42:22 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:42:22 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:39 INFO  no build target found for C:\Users\etifo\dataprocess\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:43 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.22 23:56:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 22, 2025 11:56:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 26
+2025.06.22 23:56:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.22 23:56:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:03:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:39 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:42 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:04:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:56 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:04:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:56 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/DataCleaner.scala
+2025.06.23 00:04:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:04:57 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/DataCleaner.scala
+2025.06.23 00:05:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:12 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:12 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:05:12 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:05:12 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:09 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:06:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:18 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:06:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:25 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:06:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:30 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:06:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:07:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:07:54 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:07:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:07:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:07:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:09:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:09:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:09:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:10:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:10:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:10:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:10:03 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:10:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:10:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:10:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:47 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:22:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:22:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 179
+2025.06.23 00:22:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:52 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:22:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:22:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 193
+juin 23, 2025 12:22:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 196
+2025.06.23 00:22:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:22:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 197
+2025.06.23 00:22:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:22:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 204
+2025.06.23 00:22:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:22:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:20 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:23:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:23:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:25:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:25:51 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:25:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:25:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:25:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:26:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:26:25 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:26:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:26:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:26:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:26:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:26:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:42 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:27:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:47 INFO  Created report: Optional[file:///C:/Users/etifo/dataprocess/app/controllers/HomeController.scala]
+2025.06.23 00:27:47 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:27:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:48 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:27:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:27:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:28:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:28:06 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:28:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:28:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:28:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:05 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:29:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:29:05 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:31:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:22 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:31:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:30 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:32 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:36 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:31:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:37 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:31:37 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:31:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:31:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:32:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:32:32 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:32:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:32:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:32:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:32:39 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:32:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:33:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:17 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:34:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 393
+2025.06.23 00:34:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:21 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:34:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 411
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 415
+juin 23, 2025 12:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 414
+juin 23, 2025 12:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 417
+juin 23, 2025 12:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 418
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 416
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+juin 23, 2025 12:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 419
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:34:26 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:34:26 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:34:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:19 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:36:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:35 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:36:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:36:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:37:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 474
+2025.06.23 00:37:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:31 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:37:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:32 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:51 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:37:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:37:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:38:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:38:54 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:38:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:38:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:38:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 514
+2025.06.23 00:38:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:38:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:02 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:40:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:03 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:12 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:32 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:38 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:41 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 00:40:42 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:40:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:40:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:07 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 00:49:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:49:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 12:49:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 599
+2025.06.23 00:50:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Exception in thread "pool-208-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.23 00:50:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:34 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:49 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:59 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 00:50:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:50:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Exception in thread "pool-234-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.23 00:51:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:30 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:30 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:30 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:37 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:38 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:38 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:38 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:51:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:12 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:33 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:39 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:39 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Exception in thread "pool-327-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.23 00:52:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:49 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:49 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:52:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:03 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:03 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Exception in thread "pool-358-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.23 00:53:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:29 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 00:53:36 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:06 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 01:01:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Exception in thread "pool-380-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.23 01:01:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Exception in thread "pool-382-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.23 01:01:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:12 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:22 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:27 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:30 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:30 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:38 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:38 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:39 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:39 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:01:39 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:02:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:02:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:02:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:03:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:03:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:03:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 1:03:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 899
+2025.06.23 01:09:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:09:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:09:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:09:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:10:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:10:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:10:02 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 1:10:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 905
+2025.06.23 01:20:24 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:20:24 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 01:20:25 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:20:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:28 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 01:25:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:28 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:41 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 01:25:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:42 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:41 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:44 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:45 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:52 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 01:25:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:25:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:26:00 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 01:26:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:26:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:26:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:26:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:26:48 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:27:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:27:23 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\HomeController.scala
+2025.06.23 01:27:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:27:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:27:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:27:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:28:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:28:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Exception in thread "pool-435-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.23 01:28:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:28:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:28:55 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_00-27-47-911.md")
+2025.06.23 01:28:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:10 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:46 INFO  no build target found for c:\Users\etifo\dataprocess\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:46 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:46 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala
+2025.06.23 01:29:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+juin 23, 2025 1:29:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 977
+2025.06.23 01:29:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:47 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:49 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:49 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:51 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:52 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:53 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:29:57 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:17 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala
+2025.06.23 01:30:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:17 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:23 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:31 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:43 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala
+2025.06.23 01:30:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:43 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:50 INFO  Created report: Optional[file:///C:/Users/etifo/dataprocess/app/controllers/MissingDataController.scala]
+2025.06.23 01:30:50 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_01-30-50-345.md")
+2025.06.23 01:30:50 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DataCleaner.scala
+2025.06.23 01:30:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:54 INFO  no build target found for c:\Users\etifo\dataprocess\app\models\DataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:55 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala
+2025.06.23 01:30:54 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:30:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:01 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:03 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:03 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:04 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala
+2025.06.23 01:31:04 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:04 INFO  Created report: Optional[file:///C:/Users/etifo/dataprocess/app/models/MissingDataCleaner.scala]
+2025.06.23 01:31:04 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_01-31-04-848.md")
+2025.06.23 01:31:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:04 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala
+2025.06.23 01:31:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:05 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:06 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:07 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:08 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:09 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:13 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:14 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_01-30-50-345.md")
+2025.06.23 01:31:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:14 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:15 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_01-30-50-345.md")
+2025.06.23 01:31:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:15 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:16 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:18 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\etifo\dataprocess\.metals\.reports\metals-full\2025-06-23\r_empty-definition_01-30-50-345.md")
+2025.06.23 01:31:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:18 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:20 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala
+2025.06.23 01:31:20 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:21 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\OutliersController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:35 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\OutliersController.scala
+2025.06.23 01:31:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\OutliersController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:35 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/controllers/OutliersController.scala
+2025.06.23 01:31:35 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\OutliersController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:35 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/controllers/OutliersController.scala
+2025.06.23 01:31:40 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\DuplicatesController.scala
+2025.06.23 01:31:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:40 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/controllers/DuplicatesController.scala
+2025.06.23 01:31:40 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:40 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/controllers/DuplicatesController.scala
+2025.06.23 01:31:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:50 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\NormalizerController.scala
+2025.06.23 01:31:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:50 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/controllers/NormalizerController.scala
+2025.06.23 01:31:50 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:31:50 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/controllers/NormalizerController.scala
+2025.06.23 01:32:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\OutliersCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:11 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\OutliersCleaner.scala
+2025.06.23 01:32:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\OutliersCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:11 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/OutliersCleaner.scala
+2025.06.23 01:32:11 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\OutliersCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:11 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/OutliersCleaner.scala
+2025.06.23 01:32:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DuplicatesCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:19 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\DuplicatesCleaner.scala
+2025.06.23 01:32:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DuplicatesCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:19 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/DuplicatesCleaner.scala
+2025.06.23 01:32:19 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DuplicatesCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:19 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/DuplicatesCleaner.scala
+2025.06.23 01:32:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\Normalizer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:26 WARN  no build target for: C:\Users\etifo\dataprocess\app\models\Normalizer.scala
+2025.06.23 01:32:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\Normalizer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:26 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/Normalizer.scala
+2025.06.23 01:32:26 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\Normalizer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:32:26 WARN  Could not find semantic tokens for: file:///C:/Users/etifo/dataprocess/app/models/Normalizer.scala
+2025.06.23 01:56:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\MissingDataCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:55 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\Normalizer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\DuplicatesCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\models\OutliersCleaner.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:56 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\NormalizerController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\DuplicatesController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:58 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\OutliersController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:59 WARN  no build target for: C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala
+2025.06.23 01:56:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:57:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:56:59 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.06.23 01:57:00 INFO  no build target found for C:\Users\etifo\dataprocess\app\controllers\MissingDataController.scala. Using presentation compiler with project's scala-library version: 3.3.6
