@@ -1,3 +1,14 @@
+error id: file:///C:/CodeMine/dataprocess%20mine/backend/app/controllers/MissingDataController.scala:`<none>`.
+file:///C:/CodeMine/dataprocess%20mine/backend/app/controllers/MissingDataController.scala
+empty definition using pc, found symbol in pc: `<none>`.
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 483
+uri: file:///C:/CodeMine/dataprocess%20mine/backend/app/controllers/MissingDataController.scala
+text:
+```scala
 // For Black (Vérifier la présence des valeurs manquantes et les traités)
 package controllers
 
@@ -11,7 +22,7 @@ import scala.concurrent.ExecutionContext
 class MissingDataController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionContext) extends AbstractController(cc) {
 
 def index = Action { implicit request: Request[AnyContent] =>
-Ok("Backend opérationnel. Utilise POST /clean pour envoyer un CSV.")
+Ok("Backend opérationnel. Utilise @@POST /clean pour envoyer un CSV.")
 }
 
 def cleanMissing = Action(parse.multipartFormData) { request =>
@@ -35,3 +46,9 @@ BadRequest("Fichier CSV manquant.")
 }
 }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: `<none>`.

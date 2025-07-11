@@ -1,3 +1,22 @@
+error id: file:///C:/CodeMine/dataprocess%20mine/backend/app/models/Normalizer.scala:scala/Option#foreach().
+file:///C:/CodeMine/dataprocess%20mine/backend/app/models/Normalizer.scala
+empty definition using pc, found symbol in pc: scala/Option#foreach().
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -java/io/log/foreach.
+	 -java/io/log/foreach#
+	 -java/io/log/foreach().
+	 -log/foreach.
+	 -log/foreach#
+	 -log/foreach().
+	 -scala/Predef.log.foreach.
+	 -scala/Predef.log.foreach#
+	 -scala/Predef.log.foreach().
+offset: 618
+uri: file:///C:/CodeMine/dataprocess%20mine/backend/app/models/Normalizer.scala
+text:
+```scala
 package models
 
 import java.io._
@@ -8,7 +27,9 @@ object Normalizer {
 
 def clean(inputFile: File, log: Option[StringBuilder] = None): File = {
 
-
+pgsql
+Copier
+Modifier
 val lines = Source.fromFile(inputFile).getLines().toList
 val header = lines.head
 val data = lines.tail.map(_.split(",").map(_.trim))
@@ -23,7 +44,7 @@ val cleanedData = data.map { row =>
       val normalized = normalizeField(field)
       if (field != normalized) {
         nbNormalized += 1
-        log.foreach(_.append(s"[NORMALIZED] \"$field\" → \"$normalized\"\n"))
+        log.fore@@ach(_.append(s"[NORMALIZED] \"$field\" → \"$normalized\"\n"))
       }
       normalized
     }
@@ -42,10 +63,16 @@ outputFile
 
 private def normalizeField(field: String): String = {
 val normalized = java.text.Normalizer.normalize(field, java.text.Normalizer.Form.NFD)
-val noAccents = normalized.replaceAll("\\p{InCombiningDiacriticalMarks}+", "")
-noAccents.toLowerCase.trim.replaceAll("\\s+", " ")
+val noAccents = normalized.replaceAll("\p{InCombiningDiacriticalMarks}+", "")
+noAccents.toLowerCase.trim.replaceAll("\s+", " ")
 }
 
 private def isNumeric(value: String): Boolean =
 value.matches("""-?\d+(.\d+)?""")
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: scala/Option#foreach().

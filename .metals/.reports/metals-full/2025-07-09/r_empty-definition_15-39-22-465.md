@@ -1,3 +1,16 @@
+error id: file:///C:/CodeMine/dataprocess%20mine/backend/app/models/MissingDataCleaner.scala:scala/package.List#
+file:///C:/CodeMine/dataprocess%20mine/backend/app/models/MissingDataCleaner.scala
+empty definition using pc, found symbol in pc: scala/package.List#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -java/io/List#
+	 -List#
+	 -scala/Predef.List#
+offset: 483
+uri: file:///C:/CodeMine/dataprocess%20mine/backend/app/models/MissingDataCleaner.scala
+text:
+```scala
 package models
 
 import java.io._
@@ -9,13 +22,14 @@ object MissingDataCleaner {
 
 def clean(inputFile: File, placeholder: String = "Inconnu", log: Option[StringBuilder] = None): File = {
 
+
 val lines = Source.fromFile(inputFile).getLines()
 require(lines.hasNext, "Fichier vide ou invalide")
 
 val header = lines.next().split(",").map(_.trim)
 val nbCols = header.length
 
-val tempRows = mutable.ArrayBuffer[List[String]]()
+val tempRows = mutable.ArrayBuffer[Li@@st[String]]()
 val colValues = Array.fill(nbCols)(mutable.ArrayBuffer[String]())
 
 // Stockage des valeurs
@@ -96,3 +110,9 @@ try { value.toDouble; true } catch { case _: NumberFormatException => false }
 private def isInteger(value: String): Boolean =
 try { value.toInt; true } catch { case _: NumberFormatException => false }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: scala/package.List#

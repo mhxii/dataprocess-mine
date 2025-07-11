@@ -1,17 +1,35 @@
+error id: file:///C:/CodeMine/dataprocess%20mine/backend/app/models/OutliersCleaner.scala:scala/collection/immutable/List#isEmpty().
+file:///C:/CodeMine/dataprocess%20mine/backend/app/models/OutliersCleaner.scala
+empty definition using pc, found symbol in pc: scala/collection/immutable/List#isEmpty().
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -java/io/lines/isEmpty.
+	 -java/io/lines/isEmpty#
+	 -java/io/lines/isEmpty().
+	 -lines/isEmpty.
+	 -lines/isEmpty#
+	 -lines/isEmpty().
+	 -scala/Predef.lines.isEmpty.
+	 -scala/Predef.lines.isEmpty#
+	 -scala/Predef.lines.isEmpty().
+offset: 226
+uri: file:///C:/CodeMine/dataprocess%20mine/backend/app/models/OutliersCleaner.scala
+text:
+```scala
 package models
 
 import java.io._
 import scala.io.Source
 import scala.util.Try
-import scala.collection.mutable.StringBuilder
 
 object OutliersCleaner {
 
-def clean(inputFile: File, log: Option[StringBuilder] = None): File = {
+def clean(inputFile: File): File = {
 
 
 val lines = Source.fromFile(inputFile).getLines().toList
-if (lines.isEmpty) throw new IllegalArgumentException("Empty file")
+if (lines.isE@@mpty) throw new IllegalArgumentException("Empty file")
 
 val header = lines.head
 val columns = header.split(",").map(_.trim)
@@ -35,29 +53,24 @@ val stats = numericCols.map { case (i, isInt) =>
   val lower = q1 - 1.5 * iqr
   val upper = q3 + 1.5 * iqr
   val median = percentile(values, 50)
-  val medianFormatted = if (isInt) median.round.toString else f"$median%.2f"
+  val medianFormatted = if (isInt) median.round.toString else median.toString
   i -> (lower, upper, medianFormatted)
 }
 
-val cleaned = data.zipWithIndex.map { case (row, rowIdx) =>
+val cleaned = data.map { row =>
   val updated = row.clone()
   stats.foreach { case (i, (low, high, median)) =>
     val v = row(i).toDouble
-    if (v < low || v > high) {
-      log.foreach(_.append(s"[OUTLIER] Ligne ${rowIdx + 2}, colonne '${columns(i)}' : valeur $v hors bornes [$low, $high] remplacée par $median\n"))
-      updated(i) = median
-    }
+    if (v < low || v > high) updated(i) = median
   }
   updated
 }
 
-val output = new File(System.getProperty("java.io.tmpdir"), s"outliers_cleaned_${inputFile.getName}")
+val output = new File(System.getProperty("java.io.tmpdir"), s"cleaned_${inputFile.getName}")
 val writer = new PrintWriter(output)
 writer.println(header)
 cleaned.foreach(r => writer.println(r.mkString(",")))
 writer.close()
-
-log.foreach(_.append(s"[OutliersCleaner] Nettoyage terminé. Colonnes numériques traitées : ${numericCols.keys.map(columns(_)).mkString(", ")}\n"))
 
 output
 }
@@ -71,3 +84,9 @@ val upper = sorted.lift(idx.toInt + 1).getOrElse(lower)
 lower + (upper - lower) * (idx - idx.toInt)
 }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: scala/collection/immutable/List#isEmpty().

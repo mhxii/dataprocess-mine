@@ -3,35 +3,100 @@ package controllers
 import javax.inject._
 import play.api.mvc._
 import play.api.libs.Files.TemporaryFile
-import java.io.File
-import models.{MissingDataCleaner, DuplicatesCleaner, OutliersCleaner, Normalizer}
+import java.io._
+import java.nio.file.{Files, Paths}
+import java.util.zip.{ZipEntry, ZipOutputStream}
+import models.{MissingDataCleaner, OutliersCleaner, DuplicatesCleaner, Normalizer}
 import scala.concurrent.ExecutionContext
 
 @Singleton
 class MainController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionContext) extends AbstractController(cc) {
 
-def index = Action { implicit request: Request[AnyContent] =>
-Ok("Backend opérationnel. Utilise POST /clean/full pour envoyer un CSV et appliquer tous les nettoyages.")
+  def index = Action { implicit request: Request[AnyContent] =>
+    Ok("Backend opérationnel. Utilise POST /clean/full pour envoyer un CSV et appliquer tous les nettoyages.")
+  }
+
+  def cleanFull = Action(parse.multipartFormData) { request =>
+  request.body.file("csvFile").map { csv =>
+    val inputFile = csv.ref.path.toFile
+    // val fileName = inputFile.getName
+    val fileName = request.body.dataParts.get("nomFile").flatMap(_.headOption)
+
+    val dataParts = request.body.asFormUrlEncoded
+    def isEnabled(option: String): Boolean =
+      dataParts.get(option).exists(_.headOption.contains("true"))
+
+    val applyMissing = isEnabled("missing")
+    val applyOutliers = isEnabled("outliers")
+    val applyDuplicates = isEnabled("duplicates")
+    val applyNormalize = isEnabled("normalize")
+
+    val log = new StringBuilder()
+    log.append(s"[START] Nettoyage du fichier: $fileName\n")
+
+    try {
+      var currentFile = inputFile
+
+      if (applyMissing) {
+        log.append("[STEP] Traitement des valeurs manquantes...\n")
+        currentFile = MissingDataCleaner.clean(currentFile, log=Some(log))
+      }
+
+      if (applyOutliers) {
+        log.append("[STEP] Détection des valeurs aberrantes...\n")
+        currentFile = OutliersCleaner.clean(currentFile, log=Some(log))
+      }
+
+      if (applyDuplicates) {
+        log.append("[STEP] Suppression des doublons...\n")
+        currentFile = DuplicatesCleaner.clean(currentFile, log=Some(log))
+      }
+
+      if (applyNormalize) {
+        log.append("[STEP] Normalisation des données...\n")
+        currentFile = Normalizer.clean(currentFile, log=Some(log))
+      }
+
+      log.append(s"[END] Nettoyage terminé avec succès.\n")
+
+      val logFile = new File(System.getProperty("java.io.tmpdir"), s"log_cleaning_$fileName.txt")
+      Files.write(logFile.toPath, log.toString().getBytes())
+
+      val zipFile = new File(System.getProperty("java.io.tmpdir"), s"output_${fileName}.zip")
+      val zip = new ZipOutputStream(new FileOutputStream(zipFile))
+
+      def addToZip(file: File, nameInZip: String): Unit = {
+          zip.putNextEntry(new ZipEntry(nameInZip))
+          val in = new BufferedInputStream(new FileInputStream(file))
+          val buffer = new Array[Byte](1024)  // Fixed: Added type parameter and size
+          var len = 0
+          while ({ len = in.read(buffer); len > 0 }) {
+            zip.write(buffer, 0, len)
+          }
+          in.close()
+          zip.closeEntry()
+        }
+
+      addToZip(inputFile, s"Original_$fileName.csv")
+      addToZip(currentFile, s"Cleaned_$fileName.csv")
+      addToZip(logFile, s"log_Cleaning_$fileName.txt")
+
+      zip.close()
+
+      Ok.sendFile(
+        content = zipFile,
+        fileName = _ => Some(zipFile.getName),
+        inline = false
+      )
+
+    } catch {
+      case e: Exception =>
+        InternalServerError(s"Erreur pendant le nettoyage : ${e.getMessage}")
+    }
+
+  }.getOrElse {
+    BadRequest("Fichier CSV manquant.")
+  }
 }
 
-def cleanFull = Action(parse.multipartFormData) { request =>
-request.body.file("csvFile").map { csv =>
-val inputFile = csv.ref.path.toFile
-
-  // Pipeline de nettoyage : Missing -> Outliers -> Duplicates -> Normalize  
-  val step1 = MissingDataCleaner.clean(inputFile)  
-  val step2 = OutliersCleaner.clean(step1)  
-  val step3 = DuplicatesCleaner.clean(step2)  
-  val finalFile = Normalizer.clean(step3)  
-
-  Ok.sendFile(  
-    content = finalFile,  
-    fileName = _ => Some(s"fully_cleaned_${inputFile.getName}"),  
-    inline = false  
-  )  
-
-}.getOrElse {  
-  BadRequest("Fichier CSV manquant.")  
-}  
-}
 }
