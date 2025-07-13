@@ -17,53 +17,60 @@ class MainController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionC
   }
 
   def cleanFull = Action(parse.multipartFormData) { request =>
-  request.body.file("csvFile").map { csv =>
-    val inputFile = csv.ref.path.toFile
-    // val fileName = inputFile.getName
-    val fileName = request.body.dataParts.get("nomFile").flatMap(_.headOption)
+    request.body.file("csvFile").map { csv =>
+      val inputFile = csv.ref.path.toFile
 
-    val dataParts = request.body.asFormUrlEncoded
-    def isEnabled(option: String): Boolean =
-      dataParts.get(option).exists(_.headOption.contains("true"))
+      // Récupérer le nom réel depuis le frontend (champ 'nomFile') ou fallback
+      val fileName = request.body.dataParts.get("nomFile").flatMap(_.headOption).getOrElse("default.csv")
 
-    val applyMissing = isEnabled("missing")
-    val applyOutliers = isEnabled("outliers")
-    val applyDuplicates = isEnabled("duplicates")
-    val applyNormalize = isEnabled("normalize")
+      val dataParts = request.body.asFormUrlEncoded
+      def isEnabled(option: String): Boolean =
+        dataParts.get(option).exists(_.headOption.contains("true"))
 
-    val log = new StringBuilder()
-    log.append(s"[START] Nettoyage du fichier: $fileName\n")
+      val applyMissing = isEnabled("missing")
+      val applyOutliers = isEnabled("outliers")
+      val applyDuplicates = isEnabled("duplicates")
+      val applyNormalize = isEnabled("normalize")
 
-    try {
-      var currentFile = inputFile
+      val log = new StringBuilder()
+      log.append(s"[START] Nettoyage du fichier: $fileName\n")
 
-      if (applyMissing) {
-        log.append("[STEP] Traitement des valeurs manquantes...\n")
-        currentFile = MissingDataCleaner.clean(currentFile, log=Some(log))
-      }
+      try {
+        var currentFile = inputFile
 
-      if (applyOutliers) {
-        log.append("[STEP] Détection des valeurs aberrantes...\n")
-        currentFile = OutliersCleaner.clean(currentFile, log=Some(log))
-      }
+        if (applyMissing) {
+          log.append("[STEP] Traitement des valeurs manquantes...\n")
+          currentFile = MissingDataCleaner.clean(currentFile, log = Some(log))
+        }
 
-      if (applyDuplicates) {
-        log.append("[STEP] Suppression des doublons...\n")
-        currentFile = DuplicatesCleaner.clean(currentFile, log=Some(log))
-      }
+        if (applyOutliers) {
+          log.append("[STEP] Détection des valeurs aberrantes...\n")
+          currentFile = OutliersCleaner.clean(currentFile, log = Some(log))
+        }
 
-      if (applyNormalize) {
-        log.append("[STEP] Normalisation des données...\n")
-        currentFile = Normalizer.clean(currentFile, log=Some(log))
-      }
+        if (applyDuplicates) {
+          log.append("[STEP] Suppression des doublons...\n")
+          currentFile = DuplicatesCleaner.clean(currentFile, log = Some(log))
+        }
 
-      log.append(s"[END] Nettoyage terminé avec succès.\n")
+        if (applyNormalize) {
+          log.append("[STEP] Normalisation des données...\n")
+          currentFile = Normalizer.clean(currentFile, log = Some(log))
+        }
 
-      val logFile = new File(System.getProperty("java.io.tmpdir"), s"log_cleaning_$fileName.txt")
-      Files.write(logFile.toPath, log.toString().getBytes())
+        log.append(s"[END] Nettoyage terminé avec succès.\n")
 
-      val zipFile = new File(System.getProperty("java.io.tmpdir"), s"output_${fileName}.zip")
-      val zip = new ZipOutputStream(new FileOutputStream(zipFile))
+        // Créer le dossier output/ s'il n'existe pas
+        val outputDir = new File("output")
+        if (!outputDir.exists()) outputDir.mkdirs()
+
+        val baseName = fileName.stripSuffix(".csv")
+
+        val logFile = new File(outputDir, s"log_Cleaning_${baseName}.txt")
+        Files.write(logFile.toPath, log.toString().getBytes())
+
+        val zipFile = new File(outputDir, s"${baseName}.zip")
+        val zip = new ZipOutputStream(new FileOutputStream(zipFile))
 
       def addToZip(file: File, nameInZip: String): Unit = {
           zip.putNextEntry(new ZipEntry(nameInZip))
@@ -77,26 +84,25 @@ class MainController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionC
           zip.closeEntry()
         }
 
-      addToZip(inputFile, s"Original_$fileName.csv")
-      addToZip(currentFile, s"Cleaned_$fileName.csv")
-      addToZip(logFile, s"log_Cleaning_$fileName.txt")
+        addToZip(inputFile, s"Original_${fileName}.csv")
+        addToZip(currentFile, s"Cleaned_${fileName}.csv")
+        addToZip(logFile, s"log_Cleaning_${baseName}.txt")
 
-      zip.close()
+        zip.close()
 
-      Ok.sendFile(
-        content = zipFile,
-        fileName = _ => Some(zipFile.getName),
-        inline = false
-      )
+        Ok.sendFile(
+          content = zipFile,
+          fileName = _ => Some(zipFile.getName),
+          inline = false
+        )
 
-    } catch {
-      case e: Exception =>
-        InternalServerError(s"Erreur pendant le nettoyage : ${e.getMessage}")
+      } catch {
+        case e: Exception =>
+          InternalServerError(s"Erreur pendant le nettoyage : ${e.getMessage}")
+      }
+
+    }.getOrElse {
+      BadRequest("Fichier CSV manquant.")
     }
-
-  }.getOrElse {
-    BadRequest("Fichier CSV manquant.")
   }
-}
-
 }

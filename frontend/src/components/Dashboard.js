@@ -12,6 +12,9 @@ const CSVDashboard = () => {
   const [files, setFiles] = useState([]); // même tableau initial
   const [selectedFile, setSelectedFile] = useState(null);
   const [csvData, setCsvData] = useState([]);
+  const [filterText, setFilterText] = useState('');
+const [currentPage, setCurrentPage] = useState(1);
+
 
   return (
     <div className="container-fluid vh-100 bg-light">
@@ -73,6 +76,10 @@ const CSVDashboard = () => {
             <CSVViewer
               selectedFile={selectedFile}
               csvData={csvData}
+              filterText={filterText}
+              setFilterText={setFilterText}
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
             />
           )}
           {activeTab === 'analytics' && (

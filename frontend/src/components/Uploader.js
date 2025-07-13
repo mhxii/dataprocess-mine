@@ -15,7 +15,7 @@ const CSVUploader = ({ setFiles }) => {
   const [logContent, setLogContent] = useState(null);
   const [zipBlobUrl, setZipBlobUrl] = useState(null);
   const [selectedFile, setSelectedFile] = useState(null);
-
+  var nameFile=null;
   const handleOptionChange = (e) => {
     const { id, checked } = e.target;
     setCleaningOptions((prev) => ({ ...prev, [id]: checked }));
@@ -28,17 +28,19 @@ const CSVUploader = ({ setFiles }) => {
     setLogContent(null);
     setZipBlobUrl(null);
   };
-
+  
   const handleClean = async () => {
+      nameFile = selectedFile.name.replace(/\.[^/.]+$/, '');
     if (!selectedFile) return;
-
+    console.log(nameFile);
     try {
       setUploadProgress(0);
       setLogContent("Nettoyage en cours...");
       setZipBlobUrl(null);
-
+      
+      nameFile = selectedFile.name.replace(/\.[^/.]+$/, '');
       const data = await uploadAndClean(
-        selectedFile,selectedFile.name,
+        selectedFile,nameFile,
         (progressEvent) => {
           const percent = Math.round((progressEvent.loaded * 100) / progressEvent.total);
           setUploadProgress(percent);
@@ -50,7 +52,7 @@ const CSVUploader = ({ setFiles }) => {
       const blobUrl = URL.createObjectURL(zipBlob);
       setZipBlobUrl(blobUrl);
 
-      setLogContent("✅ Nettoyage terminé avec succès. Voir le fichier log dans le zip.");
+      setLogContent("Nettoyage termine avec succès. Voir le fichier log dans le zip.");
 
       setFiles((prev) => [
         ...prev,
@@ -69,7 +71,7 @@ const CSVUploader = ({ setFiles }) => {
       ]);
     } catch (error) {
       console.error('Erreur lors du nettoyage :', error);
-      setLogContent("❌ Erreur lors du nettoyage. Voir la console.");
+      setLogContent("Erreur lors du nettoyage. Voir la console.");
     }
   };
 
@@ -78,7 +80,7 @@ const CSVUploader = ({ setFiles }) => {
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2>Upload & Nettoyage CSV</h2>
         <button className="btn btn-outline-primary">
-          <Settings size={16} className="me-2" /> Paramètres
+          <Settings size={16} className="me-2" /> Parametres
         </button>
       </div>
 
@@ -88,7 +90,7 @@ const CSVUploader = ({ setFiles }) => {
           <div className="card shadow-sm">
             <div className="card-body">
               <h5 className="card-title">
-                <Upload className="me-2" size={20} /> Télécharger un fichier CSV
+                <Upload className="me-2" size={20} /> Telecharger un fichier CSV
               </h5>
 
               <div className="border-2 border-dashed border-primary rounded p-4 text-center mb-3">
@@ -99,7 +101,7 @@ const CSVUploader = ({ setFiles }) => {
                   className="form-control mb-3"
                 />
                 <p className="text-muted mb-0">
-                  Glissez-déposez votre fichier CSV ici ou cliquez pour sélectionner
+                  Glissez-deposez votre fichier CSV ici ou cliquez pour selectionner
                 </p>
               </div>
 
@@ -133,10 +135,11 @@ const CSVUploader = ({ setFiles }) => {
                   <Download size={16} className="me-2" />
                   <a
                     href={zipBlobUrl}
-                    download="cleaned_csv.zip"
+                    
+                    download={`${selectedFile.name.replace(/\.[^/.]+$/, '')}.zip`}
                     className="btn btn-success btn-sm"
                   >
-                    Télécharger le fichier nettoyé
+                    Telecharger le fichier nettoye
                   </a>
                 </div>
               )}
@@ -159,8 +162,8 @@ const CSVUploader = ({ setFiles }) => {
               {[
                 { id: 'duplicates', label: 'Supprimer les doublons' },
                 { id: 'missing', label: 'Traiter les valeurs manquantes' },
-                { id: 'outliers', label: 'Détecter les valeurs aberrantes' },
-                { id: 'normalize', label: 'Normaliser les données' },
+                { id: 'outliers', label: 'Detecter les valeurs aberrantes' },
+                { id: 'normalize', label: 'Normaliser les donnees' },
               ].map(({ id, label }) => (
                 <div className="form-check mb-2" key={id}>
                   <input

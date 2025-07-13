@@ -1,5 +1,6 @@
 import React from 'react';
 import { FileText, Eye, Download, Trash2, Search, CheckCircle, Clock, AlertCircle } from 'lucide-react';
+const API_BASE_URL = 'http://localhost:9000';
 
 const CSVHistory = ({ files, setActiveTab, setSelectedFile, setCsvData }) => {
   const getStatusBadge = (status) => {
@@ -24,6 +25,29 @@ const CSVHistory = ({ files, setActiveTab, setSelectedFile, setCsvData }) => {
         {issueLabels[issue]}
       </span>
     ));
+  };
+
+  const handleDownloadZip = async (file) => {
+    console.log(file);
+    const nameZip = `${file.name.replace(/\.[^/.]+$/, '')}.zip`;
+    const zipUrl = `${API_BASE_URL}/files/${nameZip}`;
+    console.log(zipUrl);
+
+    try {
+      const response = await fetch(zipUrl);
+      if (!response.ok) throw new Error("Erreur téléchargement");
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${nameZip}`;
+      a.click();
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      alert("Téléchargement échoué : " + error.message);
+    }
   };
 
   return (
@@ -85,7 +109,7 @@ const CSVHistory = ({ files, setActiveTab, setSelectedFile, setCsvData }) => {
                           onClick={() => {
                             setSelectedFile(file);
                             setActiveTab('viewer');
-                            setCsvData([ // exemple
+                            setCsvData([
                               { id: 1, name: 'John Doe', age: 25 },
                               { id: 2, name: 'Jane Doe', age: 30 }
                             ]);
@@ -93,7 +117,10 @@ const CSVHistory = ({ files, setActiveTab, setSelectedFile, setCsvData }) => {
                         >
                           <Eye size={14} />
                         </button>
-                        <button className="btn btn-outline-success">
+                        <button
+                          className="btn btn-outline-success"
+                          onClick={() => handleDownloadZip(file)}
+                        >
                           <Download size={14} />
                         </button>
                         <button className="btn btn-outline-danger">
