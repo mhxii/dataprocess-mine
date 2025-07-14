@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+    container_name: dataprocess_frontend
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    environment:
+      - NODE_ENV=production
+    command: ["npx", "serve", "build"]
+
+  backend:
+    build:
+      context: ./backend
+    container_name: dataprocess_backend
+    ports:
+      - "9000:9000"
+    depends_on:
+      - frontend
+    environment:
+      - JAVA_OPTS=-Xmx512m -Xms256m -XX:+UseG1GC -Dpidfile.path=/dev/null
+      - PLAY_SECRET=a-very-long-random-secret-key-that-should-be-at-least-32-characters-long-for-security
