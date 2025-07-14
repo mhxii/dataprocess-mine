@@ -30,7 +30,7 @@ RUN apt-get update && \
 # Copier et dézipper le backend
 COPY --from=backend-build /app/target/universal/*.zip /app/
 RUN unzip *.zip && \
-    mv dataprocess-* backend && \
+    mv dataprocess-1.0 backend && \
     rm *.zip && \
     chmod +x /app/backend/bin/dataprocess
 
