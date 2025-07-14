@@ -1,7 +1,7 @@
 // services/api.js
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:9000';
+const API_BASE_URL = 'http://localhost:9000';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -13,6 +13,8 @@ export const uploadAndClean = async (file,nomFile, onUploadProgress, options = {
   const formData = new FormData();
   formData.append('csvFile', file);
   formData.append('nomFile', nomFile);
+    console.log(nomFile);
+
 
 
   // Ajouter dynamiquement les options booléennes
@@ -37,8 +39,10 @@ export const getFiles = async () => {
   return response.data;
 };
 
-export const getFile = async (id) => {
-  const response = await api.get(`/api/files/${id}`);
+export const getFile = async (fileName) => {
+  const response = await api.get(`/files/${fileName}`, {
+    responseType: 'blob',
+  });
   return response.data;
 };
 

@@ -4,7 +4,7 @@ package controllers
 import javax.inject._
 import play.api.mvc._
 import java.io.File
-import models.Normalizer
+import models.NormalizerCleaner
 import scala.concurrent.ExecutionContext
 
 @Singleton
@@ -19,7 +19,7 @@ def normalize = Action(parse.multipartFormData) { request =>
 request.body.file("csvFile").map { csv =>
 
 val inputFile = csv.ref.path.toFile
-val cleanedFile = Normalizer.clean(inputFile)
+val cleanedFile = NormalizerCleaner.clean(inputFile)
 
 Ok.sendFile(
 content = cleanedFile,

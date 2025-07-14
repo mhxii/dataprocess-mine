@@ -6,4 +6,5 @@ target
 /.classpath
 /.project
 /.settings
+/.output
 /RUNNING_PID

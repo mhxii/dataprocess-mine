@@ -2,45 +2,47 @@ package models
 
 import java.io._
 import scala.io.Source
+import scala.collection.mutable
+import DetectionColonne._
 
 object DuplicatesCleaner {
 
-def clean(inputFile: File, log: Option[StringBuilder] = None): File = {
+  def clean(inputFile: File, log: Option[StringBuilder] = None): File = {
+    val rawLines = Source.fromFile(inputFile).getLines()
+    require(rawLines.hasNext, "Fichier vide")
 
+    val header = rawLines.next()
+    val headerCols = header.split(",").map(_.trim)
+    val data = rawLines.map(_.split(",", -1).map(_.trim).toList).toList
 
-val lines = Source.fromFile(inputFile).getLines().toList
-val header = lines.head
-val data = lines.tail.map(_.split(",").map(_.trim))
+    if (data.isEmpty) return inputFile
 
-val firstRow = data.headOption.getOrElse(Array.empty)
-val stringColIndexes = firstRow.zipWithIndex.collect {
-  case (value, idx) if !isNumeric(value) => idx
-}
+    // Analyser le fichier avec DetectionColonne pour avoir les types
+    val detectionLines = Source.fromFile(inputFile).getLines()
+    val (_, columnStats) = DetectionColonne.analyzeFile(detectionLines, log = log)
 
-var seen = Set[String]()
-val cleanedData = data.zipWithIndex.filter { case (row, idx) =>
-  val key = stringColIndexes.map(row).mkString("_")
-  if (seen.contains(key)) {
-    log.foreach(_.append(s"[DUPLICATE] Ligne ${idx + 2} supprimée (clé: $key)\n"))
-    false
-  } else {
-    seen += key
-    true
+    // Filtrer les lignes strictement identiques (sur toutes les colonnes)
+    val seen = mutable.Set[String]()
+    val cleaned = data.zipWithIndex.filter { case (row, idx) =>
+      val key = row.mkString("__§__") // Separateur peu probable pour garantir unicite
+      if (seen.contains(key)) {
+        log.foreach(_.append(s"[DUPLICATE] Ligne ${idx + 2} supprimee (ligne strictement identique)\n"))
+        false
+      } else {
+        seen += key
+        true
+      }
+    }.map(_._1)
+
+    val output = new File(System.getProperty("java.io.tmpdir"), s"duplicates_cleaned_${inputFile.getName}")
+    val writer = new PrintWriter(output)
+    writer.println(header)
+    cleaned.foreach(row => writer.println(row.mkString(",")))
+    writer.close()
+
+    val nbDoublons = data.size - cleaned.size
+    log.foreach(_.append(s"[DuplicatesCleaner] $nbDoublons lignes strictement identiques supprimees\n"))
+
+    output
   }
-}.map(_._1)
-
-val outputFile = new File(System.getProperty("java.io.tmpdir"), s"duplicates_cleaned_${inputFile.getName}")
-val writer = new PrintWriter(outputFile)
-writer.println(header)
-cleanedData.foreach(r => writer.println(r.mkString(",")))
-writer.close()
-
-val nbDoublons = data.size - cleanedData.size
-log.foreach(_.append(s"[DuplicatesCleaner] $nbDoublons doublons supprimés basés sur colonnes string (${stringColIndexes.mkString(", ")})\n"))
-
-outputFile
-}
-
-private def isNumeric(value: String): Boolean =
-value.matches("""-?\d+(.\d+)?""")
 }

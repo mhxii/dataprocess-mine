@@ -4,6 +4,7 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 Compile / run / fork := true
 Compile / run / javaOptions += "-Xmx4G"
+Compile / run / javaOptions += "-Xmx2G"
 
 name := "dataprocess"
 

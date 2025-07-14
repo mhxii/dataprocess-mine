@@ -1,32 +1,56 @@
 // CSVViewer.js
 import React, { useState, useEffect } from 'react';
-import { FileCheck, Search, Download } from 'lucide-react';
+import { FileCheck, Search } from 'lucide-react';
 import { getFile } from '../services/api';
+import JSZip from 'jszip';
+import Papa from 'papaparse';
 
 const CSVViewer = ({ selectedFile, filterText, setFilterText, currentPage, setCurrentPage }) => {
   const [viewMode, setViewMode] = useState('cleaned'); // cleaned | original | comparison
   const [cleanedData, setCleanedData] = useState([]);
   const [originalData, setOriginalData] = useState([]);
+  
 
   const rowsPerPage = 50;
 
   useEffect(() => {
     if (!selectedFile) return;
 
-    // Simuler un appel au backend pour récupérer les données originales et nettoyées (selon l'ID du fichier sélectionné)
-    getFile(selectedFile.id).then((data) => {
-      setOriginalData(data.original || []);
-      setCleanedData(data.cleaned || []);
-    });
+    const nameZip = `${selectedFile.name.replace(/\.[^/.]+$/, '')}.zip`;
+
+    const loadZipAndParse = async () => {
+      try {
+        const blob = await getFile(nameZip);
+        const zip = await JSZip.loadAsync(blob);
+
+        const originalCsvName = Object.keys(zip.files).find(name => name.startsWith("Original_"));
+        const cleanedCsvName = Object.keys(zip.files).find(name => name.startsWith("Cleaned_"));
+
+        const originalCsv = await zip.file(originalCsvName).async("string");
+        const cleanedCsv = await zip.file(cleanedCsvName).async("string");
+
+        const parsedOriginal = Papa.parse(originalCsv, { header: true }).data;
+        const parsedCleaned = Papa.parse(cleanedCsv, { header: true }).data;
+
+        setOriginalData(parsedOriginal);
+        setCleanedData(parsedCleaned);
+      } catch (error) {
+        console.error("Erreur de lecture du ZIP :", error);
+      }
+    };
+
+    loadZipAndParse();
   }, [selectedFile]);
 
   const generateComparison = () => {
     return cleanedData.map((row, index) => {
       const originalRow = originalData[index] || {};
       return Object.keys(row).reduce((acc, key) => {
+        const cleanedValue = row[key] ?? "";
+        const originalValue = originalRow[key] ?? "";
         acc[key] = {
-          value: row[key],
-          changed: row[key] !== originalRow[key],
+          value: cleanedValue,
+          changed: cleanedValue !== originalValue,
         };
         return acc;
       }, {});
@@ -41,14 +65,18 @@ const CSVViewer = ({ selectedFile, filterText, setFilterText, currentPage, setCu
       : generateComparison();
 
   const filteredData = dataToRender.filter((row) => {
+    const lowerFilter = filterText?.toLowerCase?.() || "";
+
     if (viewMode === 'comparison') {
-      return Object.values(row).some((cell) =>
-        cell.value.toString().toLowerCase().includes(filterText.toLowerCase())
-      );
+      return Object.values(row).some((cell) => {
+        const value = cell?.value ?? "";
+        return value.toString().toLowerCase().includes(lowerFilter);
+      });
     } else {
-      return Object.values(row).some((val) =>
-        val.toString().toLowerCase().includes(filterText.toLowerCase())
-      );
+      return Object.values(row).some((val) => {
+        const value = val ?? "";
+        return value.toString().toLowerCase().includes(lowerFilter);
+      });
     }
   });
 
@@ -58,6 +86,11 @@ const CSVViewer = ({ selectedFile, filterText, setFilterText, currentPage, setCu
   );
 
   const totalPages = Math.max(1, Math.ceil(filteredData.length / rowsPerPage));
+console.log("Data cleaned:", cleanedData);
+console.log("Data original:", originalData);
+console.log("DataToRender:", dataToRender);
+console.log("FilteredData:", filteredData);
+console.log("PaginatedData:", paginatedData);
 
   return (
     <div>
@@ -125,9 +158,7 @@ const CSVViewer = ({ selectedFile, filterText, setFilterText, currentPage, setCu
               <thead>
                 <tr>
                   {filteredData.length > 0 &&
-                    (viewMode === 'comparison'
-                      ? Object.keys(filteredData[0]).map((key) => <th key={key}>{key}</th>)
-                      : Object.keys(filteredData[0]).map((key) => <th key={key}>{key}</th>))}
+                    Object.keys(filteredData[0]).map((key) => <th key={key}>{key}</th>)}
                 </tr>
               </thead>
               <tbody>
