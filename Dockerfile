@@ -11,7 +11,7 @@ RUN npm run build
 
 
 # Étape 2 : builder backend Scala
-FROM hseeberger/scala-sbt:11.0.19_1.9.7_2.13.12 AS backend-build
+FROM hseeberger/scala-sbt:11.0.17_1.8.2_2.13.10 AS backend
 
 WORKDIR /app
 
