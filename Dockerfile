@@ -43,4 +43,4 @@ USER playuser
 EXPOSE 9000
 ENV JAVA_OPTS="-Xmx512m -Xms256m -XX:+UseG1GC -Dpidfile.path=/dev/null"
 
-CMD ["/app/backend/bin/dataprocess", "-Dplay.http.secret.key=changeme", "-Dplay.server.http.port=9000"]
+CMD ["/app/backend/bin/dataprocess", "-Dplay.http.secret.key=a-very-long-random-secret-key-that-should-be-at-least-32-characters-long-for-security", "-Dplay.server.http.port=9000"]
