@@ -1,49 +1,50 @@
-# Étape 1 : builder frontend React
-FROM node:18-alpine AS frontend-build
-
-WORKDIR /app/frontend
-
-COPY frontend/package.json frontend/package-lock.json ./
-RUN npm install
-
-COPY frontend/ ./
-RUN npm run build
-
-
-# Étape 2 : builder backend Scala
-FROM hseeberger/scala-sbt:11.0.17_1.8.2_2.13.10 AS backend
+##########################
+# Étape 1 : Build Backend Play (Scala)
+##########################
+FROM hseeberger/scala-sbt:11.0.17_1.8.2_2.13.10 as backend-build
 
 WORKDIR /app
 
-COPY backend/project ./backend/project
-COPY backend/build.sbt ./backend/
-COPY backend/ ./
+# Copier le backend
+COPY backend /app/backend
+WORKDIR /app/backend
 
-# Copie le build React dans le dossier public de Play
-COPY --from=frontend-build /app/frontend/build ./backend/public/
+# Compile le backend
+RUN sbt dist
 
-RUN sbt backend/compile backend/dist
+##########################
+# Étape 2 : Build Frontend React
+##########################
+FROM node:18-alpine as frontend-build
 
+WORKDIR /app
 
-# Étape 3 : conteneur final
+# Copier le frontend
+COPY frontend /app/frontend
+WORKDIR /app/frontend
+
+# Installer dépendances et builder
+RUN npm install && npm run build
+
+##########################
+# Étape 3 : Image finale de production
+##########################
 FROM eclipse-temurin:11-jre
 
 WORKDIR /app
 
-# Copie le JAR / ZIP du backend compilé
+# Dézipper le backend Play dist
 COPY --from=backend-build /app/backend/target/universal/*.zip /app/
-
-# Décompresser le ZIP Play dist
 RUN apt-get update && apt-get install -y unzip && \
     unzip *.zip && \
-    rm *.zip && \
-    mv dataprocess-* dataprocess && \
-    apt-get clean
+    mv backend-* backend && \
+    rm *.zip
 
-# Heroku utilise le port d’environnement PORT
-ENV PORT=9000
+# Copier le build React vers le dossier public du backend
+COPY --from=frontend-build /app/frontend/build /app/backend/public
 
+# Exposer le port utilisé par Play
 EXPOSE 9000
 
-# Lancer l'app Play
-CMD ["dataprocess/bin/dataprocess", "-Dplay.http.secret.key=mysecretkey", "-Dhttp.port=9000"]
+# Lancer le backend Play
+CMD ["/app/backend/bin/backend", "-Dplay.http.secret.key=changeme"]
