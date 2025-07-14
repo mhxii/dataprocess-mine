@@ -19,9 +19,9 @@ object MissingDataCleaner {
     val (header, columnStats) = DetectionColonne.analyzeFile(lines, log = log)
     val nbCols = header.length
 
-    // Relire le fichier pour traiter les données (nécessaire car l'iterator est consommé)
+    // Relire le fichier pour traiter les donnees (necessaire car l iterator est consomme)
     val linesForProcessing = Source.fromFile(inputFile).getLines()
-    linesForProcessing.next() // Skip header
+    linesForProcessing.next() 
 
     val tempRows = mutable.ArrayBuffer[List[String]]()
     val colValues = Array.fill(nbCols)(mutable.ArrayBuffer[String]())
@@ -39,7 +39,7 @@ object MissingDataCleaner {
       }
     }
 
-    // Utiliser les types détectés par DetectionColonne
+    // Utiliser les types detectes par DetectionColonne
     val colType = columnStats.map { stats =>
       stats.dataType match {
         case DetectionColonne.IntegerType => "int"
@@ -48,7 +48,7 @@ object MissingDataCleaner {
       }
     }
 
-    // Calcul des moyennes (pas utilisées, mais disponibles)
+    // Calcul des moyennes (pas utilisees, mais disponibles)
     val means = colValues.zip(colType).map {
       case (vals, "int")    => if (vals.nonEmpty) vals.map(_.toInt).sum.toDouble / vals.size else 0.0
       case (vals, "double") => if (vals.nonEmpty) vals.map(_.toDouble).sum / vals.size else 0.0
@@ -65,20 +65,20 @@ object MissingDataCleaner {
 
     for ((row, rowIdx) <- tempRows.zipWithIndex) {
 
-      // 1. Vérifier d'abord s'il y a des valeurs manquantes non numériques
+      // 1. Verifier d abord s il y a des valeurs manquantes non numeriques
       val hasNonNumericMissing = row.zipWithIndex.exists { case (v, idx) =>
         isMissing(v) && colType(idx) == "string"
       }
 
       if (hasNonNumericMissing) {
-        // Supprimer la ligne si elle contient des valeurs manquantes non numériques
+        // Supprimer la ligne si elle contient des valeurs manquantes non numeriques
         nbLignesSupprimees += 1
-        log.foreach(_.append(s"[SUPPRIMÉ] Ligne ${rowIdx + 2} supprimée (valeur manquante non numérique): ${row.mkString(", ")}\n"))
+        log.foreach(_.append(s"[SUPPRIMe] Ligne ${rowIdx + 2} supprimee (valeur manquante non numerique): ${row.mkString(", ")}\n"))
       } else {
-        // 2. Traiter les valeurs manquantes numériques ET les valeurs non-numériques dans colonnes numériques
+        // 2. Traiter les valeurs manquantes numeriques ET les valeurs non-numeriques dans colonnes numeriques
         val cleanedRow = row.zipWithIndex.map { case (v, idx) =>
           if (colType(idx) != "string") {
-            // Pour les colonnes numériques, vérifier valeurs manquantes OU valeurs non-numériques
+            // Pour les colonnes numeriques, verifier valeurs manquantes OU valeurs non-numeriques
             val shouldReplace = isMissing(v) || !isValidForColumnType(v, colType(idx))
             
             if (shouldReplace) {
@@ -88,11 +88,11 @@ object MissingDataCleaner {
                 case "double" => "-9999.99"  // Toujours avec un point
                 case _        => v // Ne devrait pas arriver
               }
-              val reason = if (isMissing(v)) "valeur manquante" else "valeur non-numérique"
-              log.foreach(_.append(s"[REMPLACEMENT] Ligne ${rowIdx + 2}, colonne '${header(idx)}': $reason '$v' remplacée par '$replacement'\n"))
+              val reason = if (isMissing(v)) "valeur manquante" else "valeur non-numerique"
+              log.foreach(_.append(s"[REMPLACEMENT] Ligne ${rowIdx + 2}, colonne '${header(idx)}': $reason '$v' remplacee par '$replacement'\n"))
               replacement
             } else {
-              // Normaliser le format des nombres (remplacer virgule par point si nécessaire)
+              // Normaliser le format des nombres (remplacer virgule par point si necessaire)
               normalizeNumber(v, colType(idx))
             }
           } else v
@@ -108,8 +108,8 @@ object MissingDataCleaner {
       s"$h[${stats.dataType.name}]" 
     }.mkString(", ")
 
-    log.foreach(_.append(s"[RÉSUMÉ] Colonnes détectées : $columnInfo\n"))
-    log.foreach(_.append(s"[RÉSUMÉ] Nettoyage terminé. $nbReplacements valeurs problématiques remplacées par -9999 (valeurs manquantes + valeurs non-numériques dans colonnes numériques). $nbLignesSupprimees lignes supprimées (valeurs non-numériques manquantes).\n"))
+    log.foreach(_.append(s"[ReSUMe] Colonnes detectees : $columnInfo\n"))
+    log.foreach(_.append(s"[ReSUMe] Nettoyage termine. $nbReplacements valeurs problematiques remplacees par -9999 (valeurs manquantes + valeurs non-numeriques dans colonnes numeriques). $nbLignesSupprimees lignes supprimees (valeurs non-numeriques manquantes).\n"))
 
     outputFile
   }
@@ -120,7 +120,7 @@ object MissingDataCleaner {
   private def isNumeric(value: String): Boolean = {
     if (value == null || value.trim.isEmpty) return false
     try { 
-      // Normaliser d'abord (remplacer virgule par point)
+      // Normaliser d abord (remplacer virgule par point)
       val normalized = value.replace(",", ".")
       normalized.toDouble
       true 
@@ -132,7 +132,7 @@ object MissingDataCleaner {
   private def isInteger(value: String): Boolean = {
     if (value == null || value.trim.isEmpty) return false
     try { 
-      // Pour les entiers, pas de virgule attendue
+      // Pour les entiers pas de virgule attendue
       value.toInt
       true 
     } catch { 
@@ -140,7 +140,7 @@ object MissingDataCleaner {
     }
   }
 
-  // Vérifie si une valeur est valide pour un type de colonne donné
+  // Verifie si une valeur est valide pour un type de colonne donne
   private def isValidForColumnType(value: String, columnType: String): Boolean = {
     if (value == null || value.trim.isEmpty) return false
     
@@ -152,7 +152,7 @@ object MissingDataCleaner {
     }
   }
 
-  // Normalise un nombre pour utiliser le point comme séparateur décimal
+  // Normalise un nombre pour utiliser le point comme separateur decimal
   private def normalizeNumber(value: String, columnType: String): String = {
     columnType match {
       case "double" => 
@@ -162,9 +162,9 @@ object MissingDataCleaner {
           val doubleValue = normalized.toDouble
           doubleValue.toString
         } catch {
-          case _: NumberFormatException => value // Si échec, garder la valeur originale
+          case _: NumberFormatException => value // Si echec, garder la valeur originale
         }
-      case "int" => value // Les entiers n'ont pas de problème de séparateur
+      case "int" => value // Les entiers n ont pas de problème de separateur
       case _ => value
     }
   }

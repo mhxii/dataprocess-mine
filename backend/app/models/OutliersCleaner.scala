@@ -4,112 +4,80 @@ import java.io._
 import scala.io.Source
 import scala.util.Try
 import scala.collection.mutable.StringBuilder
+import DetectionColonne._
 
 object OutliersCleaner {
 
   def clean(inputFile: File, log: Option[StringBuilder] = None): File = {
 
-    val lines = Source.fromFile(inputFile).getLines().toList
-    if (lines.isEmpty) throw new IllegalArgumentException("Empty file")
+    val lines = Source.fromFile(inputFile).getLines()
+    if (!lines.hasNext) throw new IllegalArgumentException("Fichier vide")
 
-    val header = lines.head
-    val columns = header.split(",").map(_.trim)
-    val data = lines.tail.map(_.split(",").map(_.trim)).filter(_.length == columns.length)
+    val (header, columnStats) = DetectionColonne.analyzeFile(lines, log = log)
+    val nbCols = header.length
 
-    // Détection des colonnes numériques valides (exclure -9999, NaN...)
-    val numericCols = columns.indices.flatMap { i =>
-      val values = data.map(_(i)).filter(v => isNumeric(v) && !isMissingLike(v))
-      if (values.nonEmpty && values.forall(isNumeric)) {
-        val isInt = values.forall(v => normalizeNumber(v).matches("-?\\d+"))
-        Some(i -> isInt)
-      } else None
-    }.toMap
+    // Recharger les donnees car l'iterateur a ete consomme
+    val allLines = Source.fromFile(inputFile).getLines().toList
+    val data = allLines.tail.map(_.split(",").map(_.trim)).filter(_.length == nbCols)
+
+    // Identifier les colonnes numeriques detectees par DetectionColonne
+    val numericCols = columnStats.filter(cs => cs.dataType == IntegerType || cs.dataType == DoubleType)
 
     if (numericCols.isEmpty) return inputFile
 
-    // Calcul des statistiques pour les outliers
-    val stats = numericCols.map { case (i, isInt) =>
-      val values = data.map(_(i)).filter(v => isNumeric(v) && !isMissingLike(v))
-        .map(v => normalizeNumber(v).toDouble).sorted
+    val stats = numericCols.map { cs =>
+      val idx = cs.index
+      val values = data.map(_(idx)).filter(v => isNumeric(v) && !isMissingLike(v)).map(_.replace(",", ".").toDouble).sorted
       val q1 = percentile(values, 25)
       val q3 = percentile(values, 75)
       val iqr = q3 - q1
       val lower = q1 - 1.5 * iqr
       val upper = q3 + 1.5 * iqr
       val median = percentile(values, 50)
-      // Normaliser la médiane pour utiliser le point décimal
-      val medianFormatted = if (isInt) {
-        median.round.toString
-      } else {
-        // Utiliser toString au lieu de f"" pour éviter les virgules selon la locale
-        val medianStr = median.toString
-        // S'assurer que le point est utilisé comme séparateur décimal
-        if (medianStr.contains(",")) medianStr.replace(",", ".") else medianStr
+      val medianStr = cs.dataType match {
+        case IntegerType => median.round.toString
+        case DoubleType  => String.format(java.util.Locale.US, "%.2f", median)
+        case _           => median.toString
       }
-      i -> (lower, upper, medianFormatted)
-    }
+      idx -> (lower, upper, medianStr)
+    }.toMap
 
-    // Nettoyage des valeurs aberrantes
     val cleaned = data.zipWithIndex.map { case (row, rowIdx) =>
       val updated = row.clone()
       stats.foreach { case (i, (low, high, median)) =>
-        val rawValue = row(i)
-        if (isNumeric(rawValue)) {
-          val v = normalizeNumber(rawValue).toDouble
-          if (v < low || v > high) {
-            log.foreach(_.append(f"[OUTLIER] Ligne ${rowIdx + 2}, colonne '${columns(i)}': valeur $v%.2f hors bornes [$low%.2f, $high%.2f], remplacée par $median\n"))
-            // La médiane est déjà normalisée avec le point décimal
+        val raw = row(i)
+        if (isNumeric(raw)) {
+          val value = raw.replace(",", ".").toDouble
+          if (value < low || value > high) {
+            log.foreach(_.append(f"[OUTLIER] Ligne ${rowIdx + 2}, colonne '${header(i)}': valeur $value%.2f hors bornes [$low%.2f, $high%.2f], remplacee par $median\n"))
             updated(i) = median
           } else {
-            // Normaliser les valeurs conservées pour utiliser le point
-            updated(i) = normalizeNumber(rawValue)
+            updated(i) = raw.replace(",", ".")
           }
         }
       }
       updated
     }
 
-    // Écriture du résultat
     val output = new File(System.getProperty("java.io.tmpdir"), s"outliers_cleaned_${inputFile.getName}")
     val writer = new PrintWriter(output)
-    writer.println(header)
+    writer.println(header.mkString(","))
     cleaned.foreach(r => writer.println(r.mkString(",")))
     writer.close()
 
-    log.foreach(_.append(s"[OutliersCleaner] Nettoyage terminé. Colonnes numériques traitées : ${numericCols.keys.map(columns(_)).mkString(", ")}\n"))
+    log.foreach(_.append(s"[OutliersCleaner] Nettoyage termine. Colonnes numeriques traitees : ${numericCols.map(_.name).mkString(", ")}\n"))
 
     output
   }
 
   private def isNumeric(value: String): Boolean = {
     if (value == null || value.trim.isEmpty) return false
-    Try(normalizeNumber(value).toDouble).isSuccess
+    Try(value.replace(",", ".").toDouble).isSuccess
   }
 
   private def isMissingLike(value: String): Boolean = {
     val v = value.trim.toLowerCase
-    v == "na" || v == "null" || v == "nan" || v == "" || v == "-9999" || v == "-9999.99"
-  }
-
-  // Normalise un nombre pour utiliser le point comme séparateur décimal
-  private def normalizeNumber(value: String): String = {
-    if (value == null || value.trim.isEmpty) return value
-    // Remplacer la virgule par un point pour la normalisation
-    val normalized = value.trim.replace(",", ".")
-    
-    // Vérifier si c'est un nombre valide après normalisation
-    try {
-      val doubleValue = normalized.toDouble
-      // Si c'est un entier, le retourner sans décimales
-      if (doubleValue == doubleValue.toLong && !normalized.contains(".")) {
-        doubleValue.toLong.toString
-      } else {
-        // Sinon, retourner le nombre avec point décimal
-        doubleValue.toString
-      }
-    } catch {
-      case _: NumberFormatException => value // Si échec, garder la valeur originale
-    }
+    Set("na", "null", "nan", "", "-9999", "-9999.99").contains(v)
   }
 
   private def percentile(sorted: Seq[Double], percent: Double): Double = {

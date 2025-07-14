@@ -6,21 +6,21 @@ import play.api.libs.Files.TemporaryFile
 import java.io._
 import java.nio.file.{Files, Paths}
 import java.util.zip.{ZipEntry, ZipOutputStream}
-import models.{MissingDataCleaner, OutliersCleaner, DuplicatesCleaner, Normalizer}
+import models.{MissingDataCleaner, OutliersCleaner, DuplicatesCleaner, NormalizerCleaner}
 import scala.concurrent.ExecutionContext
 
 @Singleton
 class MainController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionContext) extends AbstractController(cc) {
 
   def index = Action { implicit request: Request[AnyContent] =>
-    Ok("Backend opérationnel. Utilise POST /clean/full pour envoyer un CSV et appliquer tous les nettoyages.")
+    Ok("Backend operationnel. Utilise POST /clean/full pour envoyer un CSV et appliquer tous les nettoyages.")
   }
 
   def cleanFull = Action(parse.multipartFormData) { request =>
     request.body.file("csvFile").map { csv =>
       val inputFile = csv.ref.path.toFile
 
-      // Récupérer le nom réel depuis le frontend (champ 'nomFile') ou fallback
+      // Recuperer le nom reel depuis le frontend (champ 'nomFile') ou fallback
       val fileName = request.body.dataParts.get("nomFile").flatMap(_.headOption).getOrElse("default.csv")
 
       val dataParts = request.body.asFormUrlEncoded
@@ -44,7 +44,7 @@ class MainController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionC
         }
 
         if (applyOutliers) {
-          log.append("[STEP] Détection des valeurs aberrantes...\n")
+          log.append("[STEP] Detection des valeurs aberrantes...\n")
           currentFile = OutliersCleaner.clean(currentFile, log = Some(log))
         }
 
@@ -54,13 +54,13 @@ class MainController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionC
         }
 
         if (applyNormalize) {
-          log.append("[STEP] Normalisation des données...\n")
-          currentFile = Normalizer.clean(currentFile, log = Some(log))
+          log.append("[STEP] Normalisation des donnees...\n")
+          currentFile = NormalizerCleaner.clean(currentFile, log = Some(log))
         }
 
-        log.append(s"[END] Nettoyage terminé avec succès.\n")
+        log.append(s"[END] Nettoyage termine avec succès.\n")
 
-        // Créer le dossier output/ s'il n'existe pas
+        // Creer le dossier output/ s'il n'existe pas
         val outputDir = new File("output")
         if (!outputDir.exists()) outputDir.mkdirs()
 

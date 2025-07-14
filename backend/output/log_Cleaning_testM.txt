@@ -5,39 +5,54 @@
 [DETECTION] Colonne 'nom': string (9/10 valeurs)
 [DETECTION] Colonne 'age': integer (7/10 valeurs)
 [DETECTION] Colonne 'email': string (10/10 valeurs)
-[DETECTION] Colonne 'salaire': integer (7/10 valeurs)
+[DETECTION] Colonne 'salaire': string (8/10 valeurs)
 [DETECTION] Colonne 'ville': string (7/10 valeurs)
 [DETECTION] Analyse terminée: 10 lignes, 6 colonnes
-[REMPLACEMENT] Ligne 2, colonne 'salaire': valeur manquante numérique remplacée par '-9999'
-[REMPLACEMENT] Ligne 4, colonne 'age': valeur manquante numérique remplacée par '-9999'
-[REMPLACEMENT] Ligne 5, colonne 'salaire': valeur manquante numérique remplacée par '-9999'
-[SUPPRIMÉ] Ligne 6 supprimée (valeur manquante non numérique): 5, , 25, awa.ndiaye@example.com, 2400, NA
-[REMPLACEMENT] Ligne 7, colonne 'salaire': valeur manquante numérique remplacée par '-9999'
-[SUPPRIMÉ] Ligne 10 supprimée (valeur manquante non numérique): 10, Inconnu, , unknown@example.com, 2700, NA
-[RÉSUMÉ] Colonnes détectées : id[integer], nom[string], age[integer], email[string], salaire[integer], ville[string]
-[RÉSUMÉ] Nettoyage terminé. 4 valeurs numériques manquantes remplacées par -9999. 2 lignes supprimées (valeurs non-numériques manquantes).
-[STEP] Détection des valeurs aberrantes...
-[OUTLIER] Ligne 2, colonne 'salaire': valeur -9999,00 hors bornes [2512,50, 3212,50], remplacée par 2850
-[OUTLIER] Ligne 4, colonne 'age': valeur -9999,00 hors bornes [23,50, 33,50], remplacée par 29
-[OUTLIER] Ligne 5, colonne 'salaire': valeur -9999,00 hors bornes [2512,50, 3212,50], remplacée par 2850
-[OUTLIER] Ligne 6, colonne 'salaire': valeur -9999,00 hors bornes [2512,50, 3212,50], remplacée par 2850
-[OutliersCleaner] Nettoyage terminé. Colonnes numériques traitées : id, age, salaire
+[SUPPRIMe] Ligne 2 supprimee (valeur manquante non numerique): 1, Jean Dupont, 30, jean.dupont@example.com, , Paris
+[REMPLACEMENT] Ligne 4, colonne 'age': valeur manquante 'NA' remplacee par '-9999'
+[SUPPRIMe] Ligne 5 supprimee (valeur manquante non numerique): 4, Sophie Durand, 32, sophie.durand@example.com, , Marseille
+[SUPPRIMe] Ligne 6 supprimee (valeur manquante non numerique): 5, , 25, awa.ndiaye@example.com, 2400, NA
+[SUPPRIMe] Ligne 7 supprimee (valeur manquante non numerique): 6, Moussa Ba, 29, moussa.ba@example.com, NaN, Thies
+[SUPPRIMe] Ligne 10 supprimee (valeur manquante non numerique): 10, Inconnu, , unknown@example.com, 2700, NA
+[ReSUMe] Colonnes detectees : id[integer], nom[string], age[integer], email[string], salaire[string], ville[string]
+[ReSUMe] Nettoyage termine. 1 valeurs problematiques remplacees par -9999 (valeurs manquantes + valeurs non-numeriques dans colonnes numeriques). 5 lignes supprimees (valeurs non-numeriques manquantes).
+[STEP] Detection des valeurs aberrantes...
+[DETECTION] Analyse de 6 colonnes
+[DETECTION] Colonne 'id': integer (4/4 valeurs)
+[DETECTION] Colonne 'nom': string (4/4 valeurs)
+[DETECTION] Colonne 'age': integer (4/4 valeurs)
+[DETECTION] Colonne 'email': string (4/4 valeurs)
+[DETECTION] Colonne 'salaire': integer (4/4 valeurs)
+[DETECTION] Colonne 'ville': string (4/4 valeurs)
+[DETECTION] Analyse terminée: 4 lignes, 6 colonnes
+[OUTLIER] Ligne 3, colonne 'age': valeur -9999,00 hors bornes [25,00, 29,00], remplacee par 27
+[OutliersCleaner] Nettoyage termine. Colonnes numeriques traitees : id, age, salaire
 [STEP] Suppression des doublons...
-[DuplicatesCleaner] 0 doublons supprimés basés sur colonnes string (1, 3, 5)
-[STEP] Normalisation des données...
-[NORMALIZED] "Jean Dupont" → "jean dupont"
-[NORMALIZED] "Paris" → "paris"
-[NORMALIZED] "Marie Curie" → "marie curie"
-[NORMALIZED] "Lyon" → "lyon"
-[NORMALIZED] "Ali Ndiaye" → "ali ndiaye"
-[NORMALIZED] "Dakar" → "dakar"
-[NORMALIZED] "Sophie Durand" → "sophie durand"
-[NORMALIZED] "Marseille" → "marseille"
-[NORMALIZED] "Moussa Ba" → "moussa ba"
-[NORMALIZED] "Thies" → "thies"
-[NORMALIZED] "Khadija Fall" → "khadija fall"
-[NORMALIZED] "Dakar" → "dakar"
-[NORMALIZED] "Fatou Diop" → "fatou diop"
-[NORMALIZED] "Lyon" → "lyon"
-[Normalizer] 14 champs string normalisés.
-[END] Nettoyage terminé avec succès.
+[DETECTION] Analyse de 6 colonnes
+[DETECTION] Colonne 'id': integer (4/4 valeurs)
+[DETECTION] Colonne 'nom': string (4/4 valeurs)
+[DETECTION] Colonne 'age': integer (4/4 valeurs)
+[DETECTION] Colonne 'email': string (4/4 valeurs)
+[DETECTION] Colonne 'salaire': integer (4/4 valeurs)
+[DETECTION] Colonne 'ville': string (4/4 valeurs)
+[DETECTION] Analyse terminée: 4 lignes, 6 colonnes
+[DuplicatesCleaner] 0 lignes strictement identiques supprimees
+[STEP] Normalisation des donnees...
+[DETECTION] Analyse de 6 colonnes
+[DETECTION] Colonne 'id': integer (4/4 valeurs)
+[DETECTION] Colonne 'nom': string (4/4 valeurs)
+[DETECTION] Colonne 'age': integer (4/4 valeurs)
+[DETECTION] Colonne 'email': string (4/4 valeurs)
+[DETECTION] Colonne 'salaire': integer (4/4 valeurs)
+[DETECTION] Colonne 'ville': string (4/4 valeurs)
+[DETECTION] Analyse terminée: 4 lignes, 6 colonnes
+[NORMALIZED] Colonne 'nom': "Marie Curie" → "marie curie"
+[NORMALIZED] Colonne 'ville': "Lyon" → "lyon"
+[NORMALIZED] Colonne 'nom': "Ali Ndiaye" → "ali ndiaye"
+[NORMALIZED] Colonne 'ville': "Dakar" → "dakar"
+[NORMALIZED] Colonne 'nom': "Khadija Fall" → "khadija fall"
+[NORMALIZED] Colonne 'ville': "Dakar" → "dakar"
+[NORMALIZED] Colonne 'nom': "Fatou Diop" → "fatou diop"
+[NORMALIZED] Colonne 'ville': "Lyon" → "lyon"
+[Normalizer] 8 champs string normalisés (colonnes : nom, email, ville)
+[END] Nettoyage termine avec succès.
