@@ -41,6 +41,6 @@ RUN chown -R playuser:playuser /app
 USER playuser
 
 EXPOSE 9000
-ENV JAVA_OPTS="-Xmx2g -Xms1g -XX:+UseG1GC -Dpidfile.path=/dev/null"
+ENV JAVA_OPTS="-Xmx512m -Xms256m -XX:+UseG1GC -Dpidfile.path=/dev/null"
 
 CMD ["/app/backend/bin/dataprocess", "-Dplay.http.secret.key=changeme", "-Dplay.server.http.port=9000"]
