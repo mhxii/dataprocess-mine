@@ -16,3 +16,7 @@ POST /clean/duplicates controllers.DuplicatesController.cleanDuplicates
 POST /clean/normalize controllers.NormalizerController.normalize
 POST /clean/full controllers.MainController.cleanFull
 GET   /files/:filename     controllers.FileController.downloadZip(filename)
+
+# React SPA
+GET     /                        controllers.Assets.at(path="/public", file="index.html")
+GET     /*path                   controllers.Assets.at(path="/public", file="index.html")
