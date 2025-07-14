@@ -30,9 +30,9 @@ RUN apt-get update && \
 # Copier et dézipper le backend
 COPY --from=backend-build /app/target/universal/*.zip /app/
 RUN unzip *.zip && \
-    mv backend-* backend && \
+    mv dataprocess-* backend && \
     rm *.zip && \
-    chmod +x /app/backend/bin/backend
+    chmod +x /app/backend/bin/dataprocess
 
 # Copier le frontend
 COPY --from=frontend-build /app/build /app/backend/public
@@ -42,4 +42,5 @@ USER playuser
 
 EXPOSE 9000
 ENV JAVA_OPTS="-Xmx2g -Xms1g -XX:+UseG1GC -Dpidfile.path=/dev/null"
-CMD ["/app/backend/bin/backend", "-Dplay.http.secret.key=changeme", "-Dplay.server.http.port=9000"]
+
+CMD ["/app/backend/bin/dataprocess", "-Dplay.http.secret.key=changeme", "-Dplay.server.http.port=9000"]
